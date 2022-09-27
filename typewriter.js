@@ -1,3 +1,5 @@
+// Take a sentence and reveal one character at a time
+
 const sentence = "hello there from lighthouse labs";
 
 const printLetters = function() {
@@ -7,7 +9,7 @@ const printLetters = function() {
     setTimeout(() => {
       process.stdout.write(char);
     }, delay);
-    delay += 100;
+    delay += 50;
   }
 
   setTimeout(() => {
